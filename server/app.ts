@@ -20,6 +20,7 @@ app.get('/', (_req, res) => {
 });
 
 app.get('/ping', (_req, res) => {
+  // eslint-disable-next-line
   console.log('someone pinged here');
   res.send('pong');
 });
